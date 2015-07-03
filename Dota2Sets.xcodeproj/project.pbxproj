@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		400D657B1B473C47002E0089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 400D657A1B473C47002E0089 /* main.m */; };
+		400D657E1B473C47002E0089 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 400D657D1B473C47002E0089 /* AppDelegate.m */; };
+		400D65811B473C47002E0089 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400D65801B473C47002E0089 /* ViewController.m */; };
+		400D65841B473C47002E0089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400D65821B473C47002E0089 /* Main.storyboard */; };
+		400D65861B473C47002E0089 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400D65851B473C47002E0089 /* Images.xcassets */; };
+		400D65891B473C47002E0089 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400D65871B473C47002E0089 /* LaunchScreen.xib */; };
+		400D65951B473C47002E0089 /* Dota2SetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 400D65941B473C47002E0089 /* Dota2SetsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		400D658F1B473C47002E0089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 400D656D1B473C47002E0089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400D65741B473C47002E0089;
+			remoteInfo = Dota2Sets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		400D65751B473C47002E0089 /* Dota2Sets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dota2Sets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		400D65791B473C47002E0089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400D657A1B473C47002E0089 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		400D657C1B473C47002E0089 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		400D657D1B473C47002E0089 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		400D657F1B473C47002E0089 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		400D65801B473C47002E0089 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		400D65831B473C47002E0089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		400D65851B473C47002E0089 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		400D65881B473C47002E0089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		400D658E1B473C47002E0089 /* Dota2SetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dota2SetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		400D65931B473C47002E0089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400D65941B473C47002E0089 /* Dota2SetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dota2SetsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400D65721B473C47002E0089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400D658B1B473C47002E0089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400D656C1B473C47002E0089 = {
+			isa = PBXGroup;
+			children = (
+				400D65771B473C47002E0089 /* Dota2Sets */,
+				400D65911B473C47002E0089 /* Dota2SetsTests */,
+				400D65761B473C47002E0089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400D65761B473C47002E0089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				400D65751B473C47002E0089 /* Dota2Sets.app */,
+				400D658E1B473C47002E0089 /* Dota2SetsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		400D65771B473C47002E0089 /* Dota2Sets */ = {
+			isa = PBXGroup;
+			children = (
+				400D657C1B473C47002E0089 /* AppDelegate.h */,
+				400D657D1B473C47002E0089 /* AppDelegate.m */,
+				400D657F1B473C47002E0089 /* ViewController.h */,
+				400D65801B473C47002E0089 /* ViewController.m */,
+				400D65821B473C47002E0089 /* Main.storyboard */,
+				400D65851B473C47002E0089 /* Images.xcassets */,
+				400D65871B473C47002E0089 /* LaunchScreen.xib */,
+				400D65781B473C47002E0089 /* Supporting Files */,
+			);
+			path = Dota2Sets;
+			sourceTree = "<group>";
+		};
+		400D65781B473C47002E0089 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				400D65791B473C47002E0089 /* Info.plist */,
+				400D657A1B473C47002E0089 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		400D65911B473C47002E0089 /* Dota2SetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				400D65941B473C47002E0089 /* Dota2SetsTests.m */,
+				400D65921B473C47002E0089 /* Supporting Files */,
+			);
+			path = Dota2SetsTests;
+			sourceTree = "<group>";
+		};
+		400D65921B473C47002E0089 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				400D65931B473C47002E0089 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		400D65741B473C47002E0089 /* Dota2Sets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400D65981B473C47002E0089 /* Build configuration list for PBXNativeTarget "Dota2Sets" */;
+			buildPhases = (
+				400D65711B473C47002E0089 /* Sources */,
+				400D65721B473C47002E0089 /* Frameworks */,
+				400D65731B473C47002E0089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dota2Sets;
+			productName = Dota2Sets;
+			productReference = 400D65751B473C47002E0089 /* Dota2Sets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		400D658D1B473C47002E0089 /* Dota2SetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400D659B1B473C47002E0089 /* Build configuration list for PBXNativeTarget "Dota2SetsTests" */;
+			buildPhases = (
+				400D658A1B473C47002E0089 /* Sources */,
+				400D658B1B473C47002E0089 /* Frameworks */,
+				400D658C1B473C47002E0089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				400D65901B473C47002E0089 /* PBXTargetDependency */,
+			);
+			name = Dota2SetsTests;
+			productName = Dota2SetsTests;
+			productReference = 400D658E1B473C47002E0089 /* Dota2SetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		400D656D1B473C47002E0089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Kenneth;
+				TargetAttributes = {
+					400D65741B473C47002E0089 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					400D658D1B473C47002E0089 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 400D65741B473C47002E0089;
+					};
+				};
+			};
+			buildConfigurationList = 400D65701B473C47002E0089 /* Build configuration list for PBXProject "Dota2Sets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400D656C1B473C47002E0089;
+			productRefGroup = 400D65761B473C47002E0089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400D65741B473C47002E0089 /* Dota2Sets */,
+				400D658D1B473C47002E0089 /* Dota2SetsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		400D65731B473C47002E0089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400D65841B473C47002E0089 /* Main.storyboard in Resources */,
+				400D65891B473C47002E0089 /* LaunchScreen.xib in Resources */,
+				400D65861B473C47002E0089 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400D658C1B473C47002E0089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		400D65711B473C47002E0089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400D65811B473C47002E0089 /* ViewController.m in Sources */,
+				400D657E1B473C47002E0089 /* AppDelegate.m in Sources */,
+				400D657B1B473C47002E0089 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400D658A1B473C47002E0089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400D65951B473C47002E0089 /* Dota2SetsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		400D65901B473C47002E0089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 400D65741B473C47002E0089 /* Dota2Sets */;
+			targetProxy = 400D658F1B473C47002E0089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		400D65821B473C47002E0089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400D65831B473C47002E0089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		400D65871B473C47002E0089 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400D65881B473C47002E0089 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		400D65961B473C47002E0089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		400D65971B473C47002E0089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		400D65991B473C47002E0089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dota2Sets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		400D659A1B473C47002E0089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dota2Sets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		400D659C1B473C47002E0089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Dota2SetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dota2Sets.app/Dota2Sets";
+			};
+			name = Debug;
+		};
+		400D659D1B473C47002E0089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Dota2SetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dota2Sets.app/Dota2Sets";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		400D65701B473C47002E0089 /* Build configuration list for PBXProject "Dota2Sets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400D65961B473C47002E0089 /* Debug */,
+				400D65971B473C47002E0089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		400D65981B473C47002E0089 /* Build configuration list for PBXNativeTarget "Dota2Sets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400D65991B473C47002E0089 /* Debug */,
+				400D659A1B473C47002E0089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		400D659B1B473C47002E0089 /* Build configuration list for PBXNativeTarget "Dota2SetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400D659C1B473C47002E0089 /* Debug */,
+				400D659D1B473C47002E0089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 400D656D1B473C47002E0089 /* Project object */;
+}
